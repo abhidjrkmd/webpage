@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('image/b84f4195a6d33c93d01111287c0c7b7e.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    background: blue;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #6ab446;
+    font-size: 50px;
+}
+
+.description button {
+    border: 1px solid #6ab446;
+    background: #6ab446;
+    border-radius: 0;
+    color: #fff;
+}
+
+.description button:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+
+#demo-modal .modal-content {
+    border-radius: 0;
+    padding: 2rem;
+}
+
+#demo-modal .modal-header {
+    border-bottom: none;
+}
+
+#demo-modal h4 {
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#demo-modal .close {
+    background: #c0c3c8;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 19px;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 30px;
+}
+
+#demo-modal .close span {
+    position: relative;
+    top: -3px;
+}
+
+#demo-modal .modal-body p {
+    color: lightblue;
+}
+
+#demo-modal .form-control,
+#demo-modal .btn {
+    min-height: 46px;
+}
+
+#demo-modal .btn {
+    background-color: #1da098;
+    border: none;
+    color: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+
+#demo-modal .btn:hover,
+#demo-modal .btn:focus {
+    background-color: #12968d;
+}
+
+.ngo logo {
+    top: 10%;
+    left: 3%;
+    position: relative;
+}
