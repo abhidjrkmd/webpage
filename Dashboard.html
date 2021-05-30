@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DASHBOARD</title>
+</head>
+
+<body id="body">
+    <div class="container">
+        <div class="navbar__right"> </div>
+        <main>
+            <div class="main__container">
+                <!-- MAIN TITLE STARTS HERE -->
+
+                <div class="main__title">
+                    <div class="main__greeting">
+                        <h1>Welcome to dashboard</h1>
+                    </div>
+                </div>
+
+                <!-- MAIN TITLE ENDS HERE -->
+
+                <!-- MAIN CARDS STARTS HERE -->
+                <div class="main__cards">
+                    <div class="card">
+                        <i class="fa fa-user-o fa-2x text-lightblue" aria-hidden="true"></i>
+                        <div class="card_inner">
+                            <p class="text-primary-p">Number of children</p>
+                            <span class="font-bold text-title">1000+</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
+                        <div class="card_inner">
+                            <p class="text-primary-p">Number of volunteer</p>
+                            <span class="font-bold text-title">400+</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa fa-video-camera fa-2x text-yellow" aria-hidden="true"></i>
+                        <div class="card_inner">
+                            <p class="text-primary-p">Donation Money</p>
+                            <span class="font-bold text-title">$100000+</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa fa-thumbs-up fa-2x text-green" aria-hidden="true"></i>
+                        <div class="card_inner">
+                            <p class="text-primary-p">Number of supporter</p>
+                            <span class="font-bold text-title">200+</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- MAIN CARDS ENDS HERE -->
+
+                <!-- CHARTS STARTS HERE -->
+                <div class="charts">
+                    <div class="charts__left">
+                        <div class="charts__left__title">
+                            <div>
+                                <h1>Daily Reports</h1>
+                                <p>of Funds & Volunteer</p>
+                            </div>
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                        </div>
+                        <div id="apex1"></div>
+                    </div>
+
+                    <div class="charts__right">
+                        <div class="charts__right__title">
+                            <div>
+                                <h1>Stats Reports</h1>
+                                <p>of NGO</p>
+                            </div>
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="charts__right__cards">
+                            <div class="card1">
+                                <h1>Fund used</h1>
+                                <p>120</p>
+                            </div>
+
+                            <div class="card2">
+                                <h1> Fund remaining</h1>
+                                <p>55%</p>
+                            </div>
+
+                            <div class="card3">
+                                <h1>No.Of member</h1>
+                                <p>100+</p>
+                            </div>
+
+                            <div class="card4">
+                                <h1>Donation Camps</h1>
+                                <p>50+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CHARTS ENDS HERE -->
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
